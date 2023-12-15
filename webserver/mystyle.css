@@ -1,0 +1,682 @@
+/* KÉSZÍTETTE: VINCZE NORBERT */
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:ubuntu;
+	width: 100%;
+	}
+	
+h1 {
+	font-size: 4.4vw;
+	font-style:italic;
+	text-align:center;
+	text-transform: uppercase;
+	}
+	
+h2 {
+	font-size: 4.0vw;
+	font-style:italic;
+	text-align:center;
+	text-transform: uppercase;
+	margin-bottom: 1%;
+	}
+	
+h3 {
+	font-size: 3.5vw;
+	font-style:italic;
+	text-align:center;
+	text-transform: uppercase;
+	margin-bottom: 2%;
+	}
+
+p {
+	font-size: 1.5vw;
+	}
+
+/* MENÜ */
+	
+.navbar {
+	background-color: white;
+	font-family:ubuntu;
+	text-transform: uppercase;
+	border:none;
+}
+
+.navbar-brand {
+	padding: 3px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+  margin-top: 8px;
+}
+
+.navbar .navbar-brand {
+  height: 80px;
+}
+
+.navbar .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+
+
+.navbar-default .navbar-nav .menu-link {
+	margin-top: 20px;
+	padding-top: 20px;
+  padding-bottom: 20px;
+  color: #000000;
+	}
+	
+.navbar-default .navbar-nav .menu-link:hover {
+	color: #A60002;
+	text-decoration: overline;
+	font-weight:bold;
+	font-style:italic;
+	}
+
+.navbar-default .navbar-nav .nav-free {
+   border:3px solid #A60002;
+   margin-top: 25px;
+   margin-left: 10px;
+   margin-right: 10px;
+   border-radius:5px;
+   padding:12px 12px 12px 12px;
+   color: #A60002;
+   font-weight:bold;
+}
+.navbar-default .navbar-nav .nav-free:hover {
+	background-color: #A60002;
+	color: #ffffff;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	}
+
+.navbar-default .navbar-nav .nav-login {
+   border:3px solid #000000;
+   margin-top: 25px;
+   margin-left: 10px;
+   margin-right: 10px;
+   border-radius:5px;
+   padding:12px 12px 12px 12px;
+   color: #000000;
+   font-weight:bold;
+}
+
+.navbar-default .navbar-nav .nav-login:hover {
+	background-color: #000000;
+	color: #ffffff;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	}
+	
+/* HEADER */
+
+.header {
+	background-image:url(./img/header-back.jpg);
+	background-repeat:no-repeat;
+    background-size:100% 100%;
+	width: 100%;
+	height: 100vh;
+}
+
+.header .p {
+	font-size: 2.7vw;
+	text-align:left;
+	text-transform: uppercase;
+	}
+	
+.header .h1 {
+	font-size: 4.4vw;
+	font-style:italic;
+	text-align:center;
+	text-transform: uppercase;
+	}
+	
+.header .h2 {
+	font-size: 4.4vw;
+	font-style:italic;
+	text-align:center;
+	text-transform: uppercase;
+	margin-bottom: 2%;
+	}
+
+	
+.header .nor-btn {
+   border:3px solid #26B3EF;
+   border-radius:7px;
+   font-size: 1.8vw;
+   padding:15px 15px 15px 15px;
+   background-color: #ffffff;
+   color: #26B3EF;
+}
+
+.header .nor-btn:hover {
+	background-color: #26B3EF;
+	color: #ffffff;
+	text-decoration: none;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	}
+	
+.header .nor-btn2 {
+   border:3px solid #ffffff;
+   background-color: #36C820;
+   font-size: 1.8vw;
+   border-radius:7px;
+   padding:15px 15px 15px 15px;
+   color: #ffffff;
+   text-transform:uppercase;
+   text-align:left;
+}
+
+.header .nor-btn2:hover {
+	border: 3px solid #36C820;
+	color: #F8FB92;
+	text-decoration: none;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	}
+	
+.header .divle1{
+	margin-top: 5%;
+	}
+
+.header .divle2{
+	margin-top: 14%;
+	}
+	
+.header .creditc {
+	text-align:center;
+	font-size: 1.5vw;
+	margin-top: 8%;
+	margin-bottom: 10%;
+	}
+
+/* DIA2 */
+
+.dia2 {
+	min-height: 100vh;
+	background: linear-gradient(to bottom, white , #5D5D5D);
+	padding-bottom: 20px;
+	}
+
+.felsorolas {
+	text-align:left;
+	font-size: clamp(25px, 1.5vw, 60px);
+	}
+	
+.img-security{
+	align-content:center;
+	max-width:800px;
+	max-height:600px;
+	max-width:100%;
+	height: auto;
+	}
+	
+/* DIA 3 */
+
+.dia3 {
+	background-image: url(./img/grey.jpg);
+	background-repeat:repeat;
+	height: 100%;
+	padding-bottom: 5%;
+	}
+
+.dia3 .h3{
+	color: #ffffff;
+	font-size: 2.4vw;
+	}
+	
+.dia3 .abra-nor {
+	margin-top:7%;
+	margin-bottom:7%;
+	max-width:850px;
+	vertical-align: middle;
+	}
+	
+.dia3 .plusz{
+	color: #c12128;
+	font-size: 2.2vw;
+	}
+	
+.dia3 .szoveg{
+	color: #ffffff;
+	font-size: clamp(25px, 1.5vw, 50px);
+	}
+	
+
+.div-nor-bal {
+	text-align:left;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	}
+	
+.div-nor-center{
+	min-width: 350px;
+	min-height: 350px;
+	}
+	
+.div-nor-jobb{
+	text-align:right;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	}
+	
+.absolute-center,
+.abra,
+.abra .btn .fa,
+.abra .btn.kozep .line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.abra {
+  width: 6em;
+  height: 6em;
+}
+
+.abra:after {
+    content: '';
+    position: absolute;
+	border-radius: 50%;
+	top: -7.4em;
+    left: -7.4em;
+    bottom: -7.4em;
+    right: -7.4em;
+    border: 5px white solid;
+	z-index: -1;
+}
+
+.abra .btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: opacity 1s, z-index 0.3s, -webkit-transform 1s;
+  transition: opacity 1s, z-index 0.3s, transform 1s;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+
+.abra .btn .fa {
+  color:#c12128;
+  font-size: 3em;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.abra .btn:hover .fa {
+	color: #ffffff;
+	}
+
+
+.abra .btn.kozep {
+	position:absolute;
+	margin-top: -35%;
+	margin-left: -35%;
+  	cursor: pointer;
+  	background-image: url(./img/ninja.png);
+  	width: 10em;
+  	height: 10em;
+}
+
+.abra .rotater {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.abra .btn-icon {
+  background-color: white;
+  border: 5px solid white;
+  box-shadow: 0 0 0 5px black inset;
+}
+
+.abra .btn-icon:hover {
+  background-color: #c12128;
+  border: 5px solid #c12128;
+  box-shadow: 0 0 0 5px white inset;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+.rotater:nth-child(1) {
+  -webkit-transform: rotate(-22.5deg);
+  -ms-transform: rotate(-22.5deg);
+  transform: rotate(-22.5deg);
+}
+
+.abra .rotater:nth-child(1) .btn-icon {
+  -webkit-transform: translateX(-10em) rotate(22.5deg);
+  -ms-transform: translateX(-10em) rotate(22.5deg);
+  transform: translateX(-10em) rotate(22.5deg);
+}
+
+.rotater:nth-child(2) {
+  -webkit-transform: rotate(22.5deg);
+  -ms-transform: rotate(22.5deg);
+  transform: rotate(22.5deg);
+}
+
+.abra .rotater:nth-child(2) .btn-icon {
+  -webkit-transform: translateX(-10em) rotate(-22.5deg);
+  -ms-transform: translateX(-10em) rotate(-22.5deg);
+  transform: translateX(-10em) rotate(-22.5deg);
+}
+
+.rotater:nth-child(3) {
+  -webkit-transform: rotate(67.5deg);
+  -ms-transform: rotate(67.5deg);
+  transform: rotate(67.5deg);
+}
+
+.abra .rotater:nth-child(3) .btn-icon {
+  -webkit-transform: translateX(-10em) rotate(-67.5deg);
+  -ms-transform: translateX(-10em) rotate(-67.5deg);
+  transform: translateX(-10em) rotate(-67.5deg);
+}
+
+.rotater:nth-child(4) {
+  -webkit-transform: rotate(112.5deg);
+  -ms-transform: rotate(112.5deg);
+  transform: rotate(112.5deg);
+}
+
+.abra .rotater:nth-child(4) .btn-icon {
+  -webkit-transform: translateX(-10em) rotate(-112.5deg);
+  -ms-transform: translateX(-10em) rotate(-112.5deg);
+  transform: translateX(-10em) rotate(-112.5deg);
+}
+
+.rotater:nth-child(5) {
+  -webkit-transform: rotate(157.5deg);
+  -ms-transform: rotate(157.5deg);
+  transform: rotate(157.5deg);
+}
+
+.abra .rotater:nth-child(5) .btn-icon {
+  -webkit-transform: translateX(-10em) rotate(-157.5deg);
+  -ms-transform: translateX(-10em) rotate(-157.5deg);
+  transform: translateX(-10em) rotate(-157.5deg);
+}
+
+.rotater:nth-child(6) {
+  -webkit-transform: rotate(202.5deg);
+  -ms-transform: rotate(202.5deg);
+  transform: rotate(202.5deg);
+}
+
+.abra .rotater:nth-child(6) .btn-icon {
+  -webkit-transform: translateX(-10em) rotate(-202.5deg);
+  -ms-transform: translateX(-10em) rotate(-202.5deg);
+  transform: translateX(-10em) rotate(-202.5deg);
+}
+
+.rotater:nth-child(7) {
+  -webkit-transform: rotate(247.5deg);
+  -ms-transform: rotate(247.5deg);
+  transform: rotate(247.5deg);
+}
+
+.abra .rotater:nth-child(7) .btn-icon {
+  -webkit-transform: translateX(-10em) rotate(-247.5deg);
+  -ms-transform: translateX(-10em) rotate(-247.5deg);
+  transform: translateX(-10em) rotate(-247.5deg);
+}
+
+.rotater:nth-child(8) {
+  -webkit-transform: rotate(292.5deg);
+  -ms-transform: rotate(292.5deg);
+  transform: rotate(292.5deg);
+}
+
+.abra .rotater:nth-child(8) .btn-icon {
+  -webkit-transform: translateX(-10em) rotate(-292.5deg);
+  -ms-transform: translateX(-10em) rotate(-292.5deg);
+  transform: translateX(-10em) rotate(-292.5deg);
+}
+
+.rotater:nth-child(9) {
+  -webkit-transform: rotate(337.5deg);
+  -ms-transform: rotate(337.5deg);
+  transform: rotate(337.5deg);
+}
+
+.abra .rotater:nth-child(9) .btn-icon {
+  -webkit-transform: translateX(-10em) rotate(-337.5deg);
+  -ms-transform: translateX(-10em) rotate(-337.5deg);
+  transform: translateX(-10em) rotate(-337.5deg);
+}
+
+/* DIA 4 */
+
+.dia4 {
+	text-align:center;
+	justify-content:center;
+	width: 100%;
+	background: #6D6027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+	
+.dia4 .h3{
+	color:black;
+	}
+
+.dia4 .p{
+	color:#0A0909;
+	}
+
+.img-easy {
+	max-width:600px;
+	}
+
+ol{
+	margin-top:2%;
+	font-size: 1.7vw;
+	color: #0A0909;
+	}
+	
+ol li {
+	display: inline;
+	}
+	
+/* DIA 5 */
+
+.dia5 {
+	background: #6D6027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.logo-block{
+	justify-content:center;
+	margin-left:10px;
+	margin-right:10px;
+	}
+	
+.img-logok{
+	max-height:112px;
+	max-width:224px;
+	width:100%;
+	}
+
+.norb-boxed {
+	align-content:center;
+	padding: 1%;
+	}
+
+.carousel-inner {
+   margin-bottom:30px;
+}
+
+
+.carousel-indicators li {
+    background: #827E7E;
+}
+
+.carousel-indicators .active {
+    background: #c12128;
+}
+
+.norb-boxed2{
+	text-align:justify;
+	padding: 2%;
+	}
+	
+/* MEDIA < 1000 */
+
+@media screen and (max-width: 1200px) {
+
+.div-nor-bal{
+	text-align:center;
+	margin-top: 1%;
+	}
+	
+	
+.div-nor-jobb{
+	text-align:center;
+	}
+	
+.dia3 .abra-nor {
+	margin-top:1%;
+	margin-bottom:1%;
+
+	}
+	
+.dia3 .plusz{
+	font-size: 2.4vw;
+	}
+	
+.dia3 .szoveg{
+	font-size: 1.9vw;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	
+.navbar-header {
+float: none;
+}
+.navbar-left,.navbar-right {
+float: none !important;
+}
+.navbar-toggle {
+display: block;
+}
+.navbar-collapse {
+border-top: 1px solid transparent;
+box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-fixed-top {
+top: 0;
+border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+display: none!important;
+}
+.navbar-nav {
+float: none!important;
+margin-top: 7.5px;
+}
+.navbar-nav>li {
+float: none;
+}
+.navbar-nav>li>a {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.collapse.in{
+display:block !important;
+}
+
+/* HEADER */
+
+.header .nor-btn {
+   font-size: 2.8vw;
+}
+
+.header .nor-btn2 {
+   font-size: 2.8vw;
+}
+
+.btn-media {
+	text-align:right;
+	}
+
+.header .divle2{
+	margin-top: 5%;
+	}
+	
+.felsorolas {
+	text-align:center;
+	font-size: 1.9vw;
+	}
+	
+ul {
+	list-style:none;
+	}
+
+	
+ol{
+	font-size: 2.3vw;
+	}
+}
+
+.dia4 .p{
+	font-size: 2.2vw;
+	}
+
+
+/* MEDIA < 700 */
+
+@media screen and (max-width: 768px) {
+
+.felsorolas {
+	font-size: 2.6vw;
+	}	
+	
+.dia3 .h3{
+	font-size: 4.1vw;
+	}
+
+.dia3 .plusz{
+	font-size: 3.3vw;
+	}
+	
+.dia3 .szoveg{
+	font-size: 2.6vw;
+	}
+
+ol{
+	font-size: 2.7vw;
+	}
+
+.dia4 .p{
+	font-size: 2.5vw;
+	}	
+}

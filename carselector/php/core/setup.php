@@ -1,0 +1,15 @@
+<?php
+error_reporting(0);
+ini_set('display_errors',0);
+$mysql_conn=mysql_connect('localhost','winrente_lampa','Joker648590$$');
+mysql_select_db('winrente_lampabolt');
+mysql_set_charset('utf8');
+$domain='http://doubledice.co';
+$folder='';
+$paypal_link='https://www.paypal.com/cgi-bin/webscr';
+$paypal_mail='winrentertainment@gmail.com';
+//$paypal_link='https://www.sandbox.paypal.com/cgi-bin/webscr';
+//$paypal_mail='leoamr_1361549824_biz@hotmail.com';
+$skrill_link='';
+$skrill_mail='';
+?>

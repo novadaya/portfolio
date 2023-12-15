@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.formContainer {
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #7b275a, #3c1053);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #7b275a, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* Form styles */
+#msform2 {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#msform2 fieldset {
+    background: #01131a;
+    border: 0 none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px #c129b9;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    position: absolute;
+}
+
+@-webkit-keyframes mymove {
+    from {box-shadow-color: #c129b9;}
+    to {box-shadow-color: #d9cc68;}
+	}
+/*Hide all except first fieldset*/
+#msform2 fieldset:not(:first-of-type) {
+display: none;
+}
+/*inputs*/
+#msform2 input, #msform2 textarea {
+background: #021e29;
+padding: 15px;
+border: 1px solid #c129b9;
+border-radius: 3px;
+margin-bottom: 10px;
+width: 100%;
+box-sizing: border-box;
+font-family: montserrat;
+color: #c129b9;
+font-size: 15px;
+}
+
+
+#msform2 select {
+background: #021e29;
+padding: 15px;
+border: 1px solid #c129b9;
+border-radius: 3px;
+margin-bottom: 10px;
+width: 100%;
+box-sizing: border-box;
+font-family: montserrat;
+color: #c129b9;
+font-size: 15px;
+}
+
+/*buttons*/
+#msform2 .action-button {
+width: 100px;
+background: #d9cc68;
+font-weight: bold;
+color: #3C0841;
+border: 0 none;
+border-radius: 4px;
+cursor: pointer;
+padding: 10px 5px;
+margin: 10px 5px;
+}
+
+#msform2 input[type="checkbox"] {
+    background: #021e29;
+    padding: 15px;
+    border: 1px solid #c129b9;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #c129b9;
+    font-size: 15px;
+}
+#msform2 .action-button:hover, #msform2 .action-button:focus {
+box-shadow: 0 0 0 2px #d9d6bf, 0 0 0 3px #d9cc68;
+}
+/*headings*/
+.fs-title2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #d9cc68;
+    margin-bottom: 10px;
+}
+
+.fs-subtitle2 {
+    font-weight: normal;
+    font-size: 13px;
+    color: #d9cc68;
+    margin-bottom: 20px;
+}
+/*progressbar2*/
+#progressbar2 {
+margin-bottom: 30px;
+overflow: hidden;
+/*CSS counters to number the steps*/
+counter-reset: step;
+}
+#progressbar2 li {
+list-style-type: none;
+color: #d9cc68;
+text-transform: uppercase;
+font-size: 10px;
+width: 33.33%;
+float: left;
+position: relative;
+}
+#progressbar2 li:before {
+content: counter(step);
+counter-increment: step;
+width: 20px;
+line-height: 20px;
+display: block;
+font-size: 10px;
+color: #d9d6bf;
+background: #c129b9;
+border-radius: 2px;
+margin: 0 auto 5px auto;
+}
+/*progressbar2 connectors*/
+#progressbar2 li:after {
+content: '';
+width: 100%;
+height: 2px;
+background: transparent;
+position: absolute;
+left: -50%;
+top: 9px;
+z-index: -1; /*put it behind the numbers*/
+}
+#progressbar2 li:first-child:after {
+/*connector not needed before the first step*/
+content: none;
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar2 li.active:before, #progressbar2 li.active:after {
+background: #3C0841;
+color: #d9cc68;
+}
+
+@-webkit-keyframes mymove {
+    from { box-shadow-color: #c129b9; }
+    to { box-shadow-color: #d9cc68; }
+}
+
+@keyframes mymove {
+    from { box-shadow-color: #c129b9; }
+    to { box-shadow-color: #d9cc68; }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta https-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Robots</title>
+<link href="./css/mystyle.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/0ae9cfa4e0.js" crossorigin="anonymous"></script>
+	
+</head>
+<body class="not-overflow">
+<!-- LOADER -->
+<div id="loading" class="loading">
+	<div class="pyramid-loader">
+		<div class="wrapper">
+			<span class="side side1"></span>
+			<span class="side side2"></span>
+			<span class="side side3"></span>
+			<span class="side side4"></span>
+			<span class="shadow"></span>
+		</div>  
+	</div>
+</div>
+
+<!-- MENU OVERLAY + ITEMS -->
+
+<div class="overlay overlay-slide-left" id="overlay">
+    <nav>
+      <ul>
+        <li id="nav-1" class="slide-out-1 center">
+          <a href="robots.html" class="center">Robots</a>
+        </li>
+        <li id="nav-2" class="slide-out-2 center">
+          <a href="vehicles.html" class="center">Vehicles</a>
+        </li>
+        <li id="nav-3" class="slide-out-3 center">
+          <a href="weapons.html" class="center">Weapons</a>
+        </li>
+        <li id="nav-4" class="slide-out-4 center">
+          <a href="game.html" class="center">Game</a>
+        </li>
+        <li id="nav-5" class="slide-out-5 center">
+          <a href="contact.html" class="center">Contact</a>
+        </li>
+      </ul>
+    </nav>
+</div>
+
+  <!-- HAMBURGER MENU -->
+
+  <div class="hamburger-menu" id="hamburger-menu">
+    <div class="menu-bar1"></div>
+    <div class="menu-bar2"></div>
+    <div class="menu-bar3"></div>
+  </div>
+	
+	
+<!-- ROBOT PICTURES SLIDER -->
+<div class="robots">
+		<div class="slider-container">
+			<ul class="slider-items">
+				<li class="item-1" name="1" ><img src="img/resized-robots/rob1.webp" alt=""></li>
+				<li class="item-2" name="2"><img src="img/resized-robots/rob2.webp" alt=""></li>
+				<li class="item-3" name="3"><img src="img/resized-robots/rob7.webp" alt=""></li>
+				<li class="item-4" name="4"><img src="img/resized-robots/rob4.webp" alt=""></li>
+				<li class="item-5" name="5"><img src="img/resized-robots/rob5.webp" alt=""></li>
+			</ul>
+		</div>
+
+<!-- SLIDER ROBOT NAMES + ACTION BUTTONS -->
+
+		<div id="slider-info" class="slider-info">
+			<p id="robot-name" class="robot-name">AstroByte</p>
+		</div>
+		<div id="slider-navigation" class="slider-navigaton">
+			<button id="slider" class="slider-nav prev"><i class='fa fa-chevron-left'></i></button>
+			<button id="select-item" class="slider-nav">Info</button>
+			<button id="slider" class="slider-nav next"><i class='fa fa-chevron-right'></i></button>
+		</div>
+
+		<div id="robot-info-container" class="info-container non-visible">
+			<div id="robot-info" class="info-card">
+				<div id="robot-info-close" class="robot-info-close"><i class="fa-solid fa-xmark"></i></div>
+				<p id="robot-info-name" class="robot-info-name">AstroByte</p>
+				<ul class="robot-info-skills">
+					<li id="robot-skill1" class="robot-skill"><i class="fa-skill fa-solid fa-meteor"></i>Data IntrusionRapid</li>
+					<li id="robot-skill2" class="robot-skill"><i class="fa-skill fa-solid fa-meteor"></i>Communication Interface</li>
+					<li id="robot-skill3" class="robot-skill"><i class="fa-skill fa-solid fa-meteor"></i>Encoding and Decoding</li>
+					<li id="robot-skill4" class="robot-skill"><i class="fa-skill fa-solid fa-meteor"></i>Remote Access</li>
+					<li id="robot-skill5" class="robot-skill"><i class="fa-skill fa-solid fa-meteor"></i>Rapid Calculation</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+<!-- ROBOTS INFO CARD -->
+					
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="./js/myscript.js"></script>
+ 
+</body>
+</html>
